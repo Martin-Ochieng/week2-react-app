@@ -101,8 +101,6 @@ describe('formSlice reducers', () => {
         };
 
         const state = formReducer(initialStateWithPosts, action);
-
-
         expect(state.status).toBe('succeeded');
     });
 
